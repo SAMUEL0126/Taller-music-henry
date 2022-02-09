@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;  
+}
+.titulo{
+    background: url(images/angel-jimenez.jpg);
+    background-size: cover;
+    height: 1000px;
+    margin-top: -150px;
+}
+h1{
+    font-size: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    padding-top: 360px;
+    padding-left: 300px;
+}
+.parrafo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: justify;
+    padding-top: 200px;
+    float: left;
+    width: 400px;
+    margin-left: 200px;
+}
+.textolargo{
+    margin-top: 50px;
+}
+
+.img2{
+    float: right;
+    width: 200px;
+    height: 200px;
+    margin-right: 600px;
+    padding-top: 80px;
+}
+.img3{
+    float: left;
+    width: 200px;
+    height: 200px;
+    padding-top: 800px;
+    
+    
+}
+
+button{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    background-color: #F52F50;
+    border: none;
+    border-radius: 15px;
+    width: 120px;
+    height: 30px;
+
+}
+.parrafo1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: justify;
+    padding-top: 200px;
+    float: right;
+    width: 400px;
+    padding-top: 650px;
+    padding-right: 350px;
+}
+.parrafo2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: justify;
+  
+    float: right;
+    width: 400px;
+    padding-right: 350px;
+    color: white;
+}
+.img4{
+    padding-top: 150px;
+    background: url(images/john-raptis.png);
+    height: 500px;
+    margin-top: 200px;
+}
+.clear{
+    clear: both;
+}
+.footer{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F52F50;
+    /* width: 1583px;
+    height: 500px; */
+    background-size: cover;
+}
+.colum1{
+    padding-top: 100px;
+    width: 20%;
+    float: left;
+    padding-left: 300px;
+    color: white;
+}
+.colum1 p{
+    margin: 20px;
+}
+.colum2 p{
+    margin: 20px;
+}
+.colum3 p{
+    margin: 20px;
+}
+.colum4 p{
+    margin: 20px;
+}
+.colum2{
+    padding-top: 100px;
+    width: 20%;
+    float: left;
+    color: white;
+}
+.colum3{
+    padding-top: 100px;
+    width: 20%;
+    float: left;
+    color: white;
+}
+.colum4{
+    padding-top: 100px;
+    width: 20%;
+    float: left;
+    padding-left: 00px;
+    color: white;
+}
+.container{
+    width: 1200px;
+    height: 50px;
+    border-bottom: 1px solid white;
+    margin-left: -1120px;
+
+}
+
+
+#music{
+    color: palevioletred;
+    font-weight: bold;
+}
+#fun{
+    font-weight: bold;
+}
+#entertaiment{
+    font-weight: bold;
+}
+#img3{
+    height: 700px;
+}
+#img4{
+    margin-left: -450px;
+   
+    width: 500px;
+    height: 700px;
+}
+#sound{
+    font-weight: bold;
+    color: white;
+}
+#with{
+    font-weight: bold;
+    color: white;
+}
+#n1{
+    padding-bottom: 20px;
+}
+#rigth{
+    margin-top: 25px;
+    text-align: left;
+    margin-left: 325px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: white;
+    margin-bottom: 1px;
+}
+#rigth1{
+    margin-top: -15px;
+    margin-right: 380px;
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: white;
+    margin-bottom: 1px;
+}
+
+@media screen and (max-width: 800px){
+	:root{
+		--color-ppal:rgb(0, 165, 82);
+    }
+
+    h1{
+        font-size: 100px;
+        padding-top: 200px;
+        padding-right: 150px;
+    }
+    .titulo{
+        width: 100vw;
+        height: 500px;
+    }
+    .footer{
+        max-width: 800px;
+    }
+    .img2{
+        float: none;
+        padding-left: 170px;
+        height: 500px;
+        
+    }
+    .img3{
+        float: none;
+        padding-left: 620px;
+        margin-top: -50px;
+        
+    }
+    .parrafo1{
+        padding-left: 200px;
+        float: none;
+        padding-top: 500px;
+    }
+    .parrafo2{
+        padding-left: 200px;
+        float: none;
+    }
+    .colum1{
+        padding-left: 100px;
+    }
+    .container{
+        width: 540px;
+        margin-left: -460px;
+    }
+    #img3{  
+        width: 460px;
+        
+    }
+    #img4{
+        width: 460px;
+    }
+    #rigth{
+        margin-left: 120px;
+    }
+    #rigth1{
+        margin-right: 140px;
+    }
+    
+}
+@media screen and (max-width: 576px){
+	:root{
+		--color-ppal:rgb(0, 165, 82);
+    }
+    h1{
+        font-size: 100px;
+        padding-top: 200px;
+        padding-left: 150px;
+    }
+    .titulo{
+        width: 576px;
+       
+    }
+    .footer{
+        width: 576px;
+        background-size: none;
+    }
+    .img2{
+        float: none;
+        padding-left: 50px;
+        height: 500px;
+        
+    }
+    .img3{
+        float: none;
+        padding-left: 0px;
+        margin-top: -50px;
+        
+    }
+    .parrafo{
+        margin-left: 77px;
+    }
+    .parrafo1{
+        padding-left: 80px;
+        float: none;
+        padding-top: 500px;
+        padding-right: 0px;
+    }
+    .parrafo2{
+        padding-left: 84px;
+        float: none;
+        padding-right: 0px;
+    }
+    .colum1{
+        padding-left: 58px;
+    }
+    .container{
+        width: 404px;
+        margin-left: -325px;
+    }
+    .img4{
+        width: 576px;
+        margin-top: 100px;
+    }
+    #img3{  
+        width: 460px;
+        
+        
+    }
+    #img4{
+        width: 460px;
+        margin-left: 50px;
+    }
+    #rigth{
+        margin-left: 80px;
+    }
+    #rigth1{
+        margin-right: 94px;
+    }
+}
